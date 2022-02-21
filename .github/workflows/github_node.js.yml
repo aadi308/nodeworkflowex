@@ -28,5 +28,7 @@ jobs:
         cache: 'npm'
     - name: Install
       run: npm install
+    
+      
     - name: Test
-      run: npm start
+      run: node index.js
